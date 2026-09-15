@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "storeName": "Game All-stars Store",
+  "games": [
+    {
+      "id": "pizza-delivery",
+      "title": "Pizza Delivery!",
+      "description": "バイクで街を走り、ピザを家まで届ける2Dオープンワールドゲーム。",
+      "version": "0.1.0",
+      "price": "FREE",
+      "genre": "2D / Open World / Delivery",
+      "downloadUrl": "",
+      "sha256": "",
+      "sizeBytes": 0
+    }
+  ]
+}

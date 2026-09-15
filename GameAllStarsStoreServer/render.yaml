@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: game-allstars-store
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: GAMEALLSTARS_CORS_ORIGINS
+        value: https://willowy-halva-8cd15a.netlify.app
