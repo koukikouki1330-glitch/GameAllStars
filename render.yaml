@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: game-all-stars-api
+    runtime: node
+    plan: free
+    buildCommand: npm install --prefix server
+    startCommand: node server/server.js
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production

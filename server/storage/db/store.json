@@ -1,0 +1,15 @@
+{
+  "users": {},
+  "games": {
+    "sample-game": {
+      "id": "sample-game",
+      "name": "Game All-stars Sample",
+      "type": "html",
+      "version": "1.0.0",
+      "developer": "Game All-stars",
+      "description": "開発用の無料サンプルゲームです。",
+      "price": 0,
+      "metascore": null
+    }
+  }
+}
