@@ -1,0 +1,13 @@
+{
+  "name": "game-all-stars-online-server",
+  "version": "1.1.2",
+  "private": true,
+  "description": "Game All-stars online server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
