@@ -1,0 +1,33 @@
+{
+  "name": "game-all-stars",
+  "version": "1.1.1",
+  "description": "Game All-stars - online launcher and free deployable server",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "server": "node server/server.js",
+    "dev": "node server/server.js & electron .",
+    "build": "electron-builder --win",
+    "start-server": "node server/server.js"
+  },
+  "devDependencies": {
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.gameallstars.launcher",
+    "productName": "Game All-stars",
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
